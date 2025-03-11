@@ -3,16 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <title>HTML Intro</title>
-   
+    <link rel="icon" href="Images/logofavicon.png" type="image/x-icon">  
+    <link rel="stylesheet" href="./styles.css"  type="text/css">
   </head>
   <body>
+
+
+    <!--internal css-->
+    <style>
+      h2 {
+        background-color: yellow;
+      }
+    </style>
+
+
     <h1>Welcome to HTML</h1>
 
     <p>Hello student, welcome to the SDF-PT10 class.</p>
     <img src="Images/image1.jpg"  alt="Web logo">
 
 
-    <h2>What to expect?</h2>
+    <h2 id="expect-header">What to expect?</h2>
     <span>This course will run for a duration of six months and you will learn the following: </span>
     
     <ol type="1">
@@ -23,13 +34,15 @@
       <li>Python</li>
     </ol>
 
-    <h2>Course Outcomes</h2>
+    <div id="outcomes-section">
+      <h2>Course Outcomes</h2>
     <p>By the end of this course, you will be able to:</p>
 
     <ul>
       <li>Create, test, and release complex web applications using JavaScript</li>
       <li>Communicate technical concepts to a non-technical audience</li>
     </ul>
+    </div>
 
     <h2>Course schedule</h2>
     <p>We usually have one intake per quarter. Check out the dates below: </p>
@@ -74,9 +87,10 @@
     <p>Ready to join Moringa School? Shoot us an email now</p>
 
     <form>
-      <input type="email" placeholder="Enter your email here" />
-      <input type="tel" placeholder="Enter your phone number" />
-      <input type="number" placeholder="Age" />
+      <input type="email" placeholder="Enter your email here" class="input-field" />
+      <input type="tel" placeholder="Enter your phone number" class="input-field" />
+      <input type="number" placeholder="Age" class="input-field" />
+      <input type="submit" value="Sign up" class="input-field"/>
     </form>
   </body>
 </html>

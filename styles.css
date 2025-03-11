@@ -1,0 +1,91 @@
+/*
+using name of tag...all the elements witht that name ie: all list items here
+*/
+li {
+    background-color: aquamarine;
+}
+
+/* 
+using id...unique identifier specific tag
+*/
+#expect-header {
+    text-decoration: underline double 2px;
+}
+
+/*
+using classes... groups of tags meant to show same behaviour
+*/
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30%;
+    margin: 20px auto;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+span {
+    color:brown;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+#outcomes-section {
+    border: 2px double gray;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 5px 8px brown;
+}
+
+/* combining selectors... apply to h2 inside outcomes section */
+#outcomes-section h2{
+    margin: 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid ;
+    background-color: white;
+    border-collapse: collapse;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+/* apply to both selectors */
+th, td {
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+th {
+   background-color: red;
+   color: white;
+}
+
+/* select using attributes */
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid blueviolet;
+}
