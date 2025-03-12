@@ -1,15 +1,26 @@
 /*
-using name of tag...all the elements witht that name ie: all list items here
+using name of tag...all the elements witht that name
 */
-li {
-    background-color: aquamarine;
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
 }
 
 /* 
 using id...unique identifier specific tag
 */
-#expect-header {
-    text-decoration: underline double 2px;
+
+#outcomes-section {
+    border: 2px double gray;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 5px 8px brown;
 }
 
 /*
@@ -27,25 +38,7 @@ using classes... groups of tags meant to show same behaviour
 }
 
 span {
-    color:brown;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: beige;
-}
-
-h1 {
-    text-align: center;
-}
-
-#outcomes-section {
-    border: 2px double gray;
-    background-color: white;
-    border-radius: 4px;
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 2px 5px 8px brown;
+    /* color:brown; */
 }
 
 /* combining selectors... apply to h2 inside outcomes section */
@@ -88,4 +81,37 @@ input[type="submit"]:hover {
     background-color: white;
     color: blue;
     border: 2px solid blueviolet;
+}
+
+nav {
+    background-color: maroon;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#welcome-message {
+    text-align: center;
+}
+
+.image-container{
+    width: 100%;
+    height: 40vh;
+
 }

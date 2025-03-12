@@ -8,19 +8,28 @@
   </head>
   <body>
 
-
-    <!--internal css-->
-    <style>
-      h2 {
-        background-color: yellow;
-      }
-    </style>
-
+<nav>
+  <ul>
+    <li>
+      <a href="#expect-header">What to expect</a>
+    </li>
+    <li>
+      <a href="#outcomes-section">Course outcomes</a>
+    </li>
+    <li>
+      <a href="course-schedule">Course schedule</a>
+    </li>
+    <li>
+      <a href="course-schedule">Signup form</a>
+    </li>
+  </ul>
+</nav>
 
     <h1>Welcome to HTML</h1>
 
-    <p>Hello student, welcome to the SDF-PT10 class.</p>
-    <img src="Images/image1.jpg"  alt="Web logo">
+    <p id="welcome-message">Hello student, welcome to the SDF-PT10 phase 0 class.</p>
+
+    <img src="Images/image1.jpg"  alt="Web logo"  class="image-container">
 
 
     <h2 id="expect-header">What to expect?</h2>
@@ -44,7 +53,7 @@
     </ul>
     </div>
 
-    <h2>Course schedule</h2>
+    <h2 id="course-schedule">Course schedule</h2>
     <p>We usually have one intake per quarter. Check out the dates below: </p>
 
     <table>
@@ -83,7 +92,7 @@
       </tbody>
     </table>
 
-    <h2>Sign up for the class</h2>
+    <h2 id="signup">Sign up for the class</h2>
     <p>Ready to join Moringa School? Shoot us an email now</p>
 
     <form>
